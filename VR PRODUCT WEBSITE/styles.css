@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.vr-logo {
+    width: 80px;
+    height: 70px;
+}
+
+.nl {
+    color: #323f4b !important;
+    font-family: "Roboto" !important;
+}
+
+.banner-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.banner-heading {
+    color: white;
+    font-weight: 500;
+}
+
+.banner-button {
+    background-color: #1a2137;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width: 28%;
+}
+
+h1 {
+    color: #1f2933;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+p {
+    color: #7b8794;
+    font-size: 16px;
+}
+
+.text-center {
+    border: none;
+}
+
+.vr-p-img {
+    width: 200px;
+    height: 270px;
+}
+
+.p-c {
+    border: none;
+    background-color: #f9fbfe;
+    text-align: center;
+}
+
+.vr-head {
+    color: #1f2933;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.vr-p-head {
+    color: #323f4b;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+body {
+    background-color: #f9fbfe;
+    font-family: "Roboto";
+}
+
+.vr-c-img {
+    width: 100%;
+}
+
+.vr-c-head {
+    color: #1f2933;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vr-c-para {
+    color: #7b8794;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.vr-c-button {
+    background-color: #1a2137 !important;
+    border: none !important;
+}
+
+
+.vr-contact-img {
+    width: 70%;
+}
+
+.contact-container {
+    background-color: #222b36;
+    background-size: cover;
+    color: white !important;
+    font-family: "Roboto";
+
+}
+
+.contact-h1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.contatct-button {
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 15px;
+}
+
+.main-head {
+    color: #1f2933;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vr-blog-h1 {
+    color: #323f4b;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.vr-blog-p {
+    color: #959ead;
+    font-weight: 600;
+
+}
+
+a {
+    color: #1754a1;
+    font-weight: bold;
+}
+
+.vr-blog-button {
+    background-color: #1754a1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sec1-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png");
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    font-family: "Roboto";
+}
+
+.vr-prod-main-head {
+    color: #1f2933;
+    font-weight: bold;
+}
+
+.sec2-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png");
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    font-family: "Roboto";
+}
+
+.vr-prod-h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.vr-prod-p {
+    font-size: 25px;
+    color: white;
+}
+
+.vr-prod-button {
+    background-color: transparent;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-size: 18px;
+}
+
+.custom-button {
+    background-color: #1754a1;
+    font-size: 14px;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+
+.image {
+    height: 8vh;
+}
+
+.footer-container {
+    background-color: #19232d;
+    background-size: cover;
+
+}
+
+.icon {
+    color: #5a7184;
+
+}
+
+.icon-container {
+    background-color: #202b36;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.footer-para {
+    color: #5a7184;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.footer-head {
+    color: #5a7184;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+hr {
+    background-color: #959ead;
+    height: 1px;
+}
