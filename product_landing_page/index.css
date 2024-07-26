@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+}
+body {
+  padding: 1em;
+  padding-bottom: 0;
+}
+h1,
+p,
+h2,
+h3 {
+  margin: 0;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center space-bet;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5em;
+  background-color: #eeeeee;
+}
+main {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-top: 10%;
+  max-height: 100%;
+  overflow: auto;
+}
+#header-img {
+  max-width: 350px;
+  object-fit: cover;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  place-items: center;
+  grid-auto-flow: dense;
+}
+li a {
+  text-decoration: none;
+  letter-spacing: 0.6;
+}
+
+#form {
+  display: grid;
+  gap: 1em;
+  place-items: center;
+}
+.feature {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 1em;
+  margin-top: 2em;
+  place-items: center start;
+}
+.feature .fa {
+  font-size: 3em;
+  color: #ff8b00;
+}
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 4em 0;
+}
+#pricing {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-columns: 1fr;
+}
+.item {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.item > ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0.3em 0;
+}
+.item ul {
+  margin-bottom: 1em;
+}
+.item h3 {
+  background-color: #dddddd;
+  width: 100%;
+  padding: 1em;
+}
+.item p {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+ul {
+  list-style: none;
+}
+.item button {
+  margin: 2em 0;
+  background-color: rgb(252, 209, 53);
+  padding: 0.7em 1em;
+  border: none;
+}
+#footer {
+  background-color: #dddddd;
+  text-align: right;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.footer-container ul {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 1em;
+}
