@@ -1,0 +1,89 @@
+#image {
+  max-width: 100%;
+  max-height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.pp {
+  text-align: center;
+  font-family: "Segoe UI", Roboto;
+  font-size: 17px;
+}
+#img-div {
+  text-align: center !important;
+  background-color: white;
+  margin: 1%;
+}
+
+#title {
+  font-weight: bold;
+  font-family: "Segoe UI", Roboto;
+  text-align: center;
+  padding-top: 3%;
+  font-size: 2.4em;
+}
+
+#img-caption {
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  padding-bottom: 2%;
+}
+#tribute-info {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 19px;
+    text-align: center;
+    margin: 5%;
+}
+
+li {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 3%;
+    text-align: left;
+
+}
+.t-i {
+  display: block;
+  margin: 0 auto;
+}
+ul {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  min-width: 70%;
+}
+span {
+  display: block;
+  margin: 0 auto;
+}
+
+main {
+  width: 98vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: "Segoe UI", sans-serif;
+  background-color:#eeeeee;
+}
+#u-pp {
+  width: 42vw;
+  display: block;
+  margin: 0 auto;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 4%;
+}
+footer > h1{
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 2%;
+  padding-bottom: 2%
+
+}
+a {
+  color: #956692;
+}
