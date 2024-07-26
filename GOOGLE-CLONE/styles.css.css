@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+a {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    height: 25vh;
+}
+
+.gimage_icon {
+    height: 15vh;
+}
+
+
+.gsearch {
+    margin-top: 5%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gsearch_box {
+    height: 6vh;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+input {
+    border: 1px solid lightgrey;
+}
+
+body gsearch {
+    background: #FFFFFF;
+    margin: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+
+form img {
+    height: 2vh;
+}
+
+.g-srch {
+    height: 2vh;
+}
+
+.g-button {
+    border: none;
+    background-color: white;
+    margin-left: 3px;
+    border-width: 0;
+}
+
+.g-button:focus {
+    outline: none;
+}
+
+.gse-card {
+
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0.8px;
+    border-radius: 50px;
+    width: 85vw;
+    font-size: 81.25%;
+}
+
+.but {
+    margin: 15px;
+}
+
+.gimage_icon {
+    height: 12vh;
+    margin-bottom: 10%;
+}
+
+
+
+.gimage {
+    margin-top: 15%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gimg_box {
+    height: 6vh;
+    font-size: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+body {
+    background: #FFFFFF;
+    margin: 0;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+
+
+}
+
+form img {
+    height: 3vh;
+    margin: 5px;
+}
+
+.g-button {
+    border: none;
+    background-color: white;
+    margin-left: 4px;
+    border-width: 0;
+}
+
+.g-button:focus {
+    outline: none;
+}
+
+.gimg-card {
+
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0.8px;
+    border-radius: 50px;
+    width: 85vw;
+    font-size: 81.25%;
+
+}
+
+.but {
+    margin: 15px;
+}
+
+.adv-img {
+    height: 7vh;
+}
+
+
+
+.adv-h1 {
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #d93025;
+    font-size: 20px;
+
+
+
+}
+
+table,
+td {
+    border-spacing: 5px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+
+
+
+}
+
+
+
+.subp {
+    width: fit-content;
+
+}
+
+.adv-inp {
+    width: 35vw;
+    border-width: 1px;
+    border-color: lightgrey;
+    height: 4vh;
+    border: 1px solid lightgrey;
+
+
+}
+
+select {
+    width: 35vw;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    font-family: "Arial";
+    height: 4vh;
+}
+
+.to {
+    width: 6vw;
+    text-align: center;
+}
+
+.to_search_box {
+    width: 14vw;
+
+}
+
+hr {
+    margin-top: 3%;
+}
+
+
+.section_1 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+footer {
+
+    background-color: #f2f2f2;
+    background-size: cover;
+    font-size: 14px;
+    color: #70757a;
+    font-weight: 500;
+}
+
+.fo {
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.fp {
+    margin-bottom: -2%;
+    margin-top: 1%;
+}
