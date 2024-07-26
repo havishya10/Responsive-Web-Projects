@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #2b283a;
+}
+
+/* typography */
+
+h1,
+h3 {
+  margin: 0;
+}
+h1 {
+  color: whitesmoke;
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+h3 {
+  color: #d0aaff;
+  font-size: 1.3rem;
+}
+p {
+  line-height: 1.5;
+}
+
+/* links */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
+}
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+.btn {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-dark {
+  background: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background: #f0e0ff;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background: whitesmoke;
+  color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f3e885;
+  color: #2b238a;
+}
+
+/* images */
+
+.nft-sneakers {
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.crypto-punk,
+.vs-shot {
+  border-radius: 5px;
+  width: 100%;
+}
+.vs-shot {
+  width: 100%;
+}
+.feature-item {
+  flex: 1 260px;
+}
+
+/* layout */
+
+header,
+.section_1,
+.section2,
+footer {
+  padding: 1.25em !important;
+}
+header,
+.section2 {
+  background-color: #5f29a3;
+  text-align: center;
+}
+.section_1,
+.section_2 {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.section2 {
+  color: whitesmoke;
+  text-align: left;
+}
+footer {
+  text-align: center;
+  color: #5f29a3;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  padding: 0.85em 0;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* media queries */
+
+/* selecting browsers width of 480 px or greater ie wider screens */
+
+@media (min-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header,
+  section,
+  footer {
+    padding-top: 2.875em;
+    padding-bottom: 2.875em;
+  }
+  .head-section,
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav li {
+    margin-left: 1.25em;
+  }
+}
+
+@media (max-width: 480px) {
+  .section_1,
+  .section_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-bottom: 1em;
+  }
+}
