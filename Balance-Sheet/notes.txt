@@ -1,0 +1,175 @@
+HTML tables use the caption element to describe what the table is about. The caption element should always be the first child of a table, but can be positioned with the caption-side CSS property.
+
+Add a caption element to your first table, and give it the text Assets.
+
+
+The thead and tbody elements are used to indicate which portion of your table is the header, and which portion contains the primary data or content.
+
+Add a thead and tbody to your first table, below the caption element.
+
+          <table>
+            <caption>Assets</caption>
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+
+The tr element is used to indicate a table row. Add a tr element within your thead element. In your new tr element, add a td element, followed by three th elements.
+
+The td element indicates a data cell, while the th element indicates a header cell.
+
+
+
+
+CSSS PSEUDO SELECTORS
+
+Before you get too far into your styling, you should make use of the sr-only class. You can use CSS to make elements with this class completely hidden from the visual page, but still be announced by screen readers.
+
+The CSS you are about to write is a common set of properties used to ensure elements are completely hidden visually.
+
+The span[class~="sr-only"] selector will select any span element whose class includes sr-only. Create that selector, and give it a border property set to 0.
+
+span[class~="sr-only"] {
+  border: 0;
+
+}
+
+
+Target your flex container with an h1 .flex selector.
+ Give it a display property set to flex to enable the flexbox layout.
+ Then set the flex-direction property to column-reverse - this will display the nested elements from bottom to top.
+ Finally, set the gap property to 1rem to create some space between the elements.
+
+
+h1 .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+
+
+
+
+The :first-of-type pseudo-selector is used to target the first element that matches the selector. Create an h1 .flex span:first-of-type selector to target the first span element in your .flex container. Remember that your span elements are reversed, visually, so this will appear to be the second element on the page.
+
+Give your new selector a font-size property of 0.7em to make it look like a sub-heading.
+
+h1 .flex span:first-of-type {
+  font-size: 0.7em;
+}
+
+h1 .flex span:last-of-type {
+  font-size: 1.2em;
+}
+
+
+************************************************************** IMPORTANT ******************************************************************************************************************
+
+The calc() function is a CSS function that allows you to calculate a value based on other values. 
+For example, you can use it to calculate the width of the viewport minus the margin of an element:
+
+.example {
+  margin: 10px;
+  width: calc(100% - 20px);
+}
+Give #years a margin of 0 -2px, and a padding set to 0.5rem calc(1.25rem + 2px) 0.5rem 0.
+
+#years {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background: #0a0a23;
+  color: #fff;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  margin: 0 -2px;
+}
+
+
+
+
+
+Before you start diving in to the table itself, your span elements are currently bolded.
+ Create a span:not(.sr-only) selector and give it a font-weight property set to normal.
+
+The :not() pseudo-selector is used to target all elements that do not match the selector - 
+in this case, any of your span elements that do not have the sr-only class. 
+This ensures that your earlier rules for the span[class~="sr-only"] selector are not overwritten.
+
+
+span:not(.sr-only) {
+  font-weight: normal;
+}
+
+
+The [attribute="value"] selector targets any element that has an attribute with a specific value. 
+Create a tr[class="total"] selector to target specifically your tr elements with the total class. 
+Give it a bottom border of 4px double #0a0a23 and make the font bold.
+
+
+
+tr[class="total"] {
+  border-bottom: 4px double #0a0a23;
+  font-weight: bold;
+}
+
+tr[class="total"] th {
+  text-align: left;
+  padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+
+The key difference between tr[class="total"] and tr.total is that the first will select tr elements where the only class is total. 
+The second will select tr elements where the class includes total.
+
+In your case, tr.total will work. You can use this selector to target all td elements within your .total rows. 
+Align the text to the right, and give them a padding of 0 0.25rem.
+
+tr.total td {
+  text-align: right;
+  padding: 0 0.25rem;
+}
+
+
+The :nth-of-type() pseudo-selector is used to target specific elements based on their order among siblings of the same type. Use this pseudo-selector to target the third td element within your total table rows. Give it a right padding of 0.5rem.
+
+
+tr.total td:nth-of-type(3) {
+  padding-right: 0.5rem;
+}
+
+
+
+Select your td elements with the class value of current, and make the font italic.
+td.current {
+  font-style: italic;
+}
+
+tr.data th {
+  text-align: left;
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+}
+
+Create a tr.data th .description selector to target the elements with the class set to description that are within your th elements in your .data table rows. Give them a block display, make the text italic with a normal weight, and position them with a padding set to 1rem 0 0.75rem and a right margin of -13.5rem.
+tr.data th .description {
+  display: block;
+  font-weight: normal;
+  font-style: italic;
+  padding: 1rem 0 0.75rem;
+  margin-right: -13.5rem;
+}
+
+
+Your dollar amounts are currently misaligned. Create a selector to target the td elements within your tr.data elements. Vertically align the text to the top, horizontally align the text to the right, and set the padding to 0.3rem 0.25rem 0.
+tr.data td{
+  vertical-align: top;
+  text-align: right;
+  padding: 0.3rem 0.25rem 0;
+}
+
+
+
+
+
