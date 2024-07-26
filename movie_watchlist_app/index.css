@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+header {
+  background-image: url("./images/header-bg.png");
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  backdrop-filter: brightness(15%);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+  overflow: auto;
+  padding: 16em 1.5em 2em 1.5em;
+  gap: 2em;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+.header-text {
+  background: rgba(0, 0, 0, 0.65);
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header-text h1 {
+  font-size: 2.35rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-text p,
+.header-text a {
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.in {
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  position: absolute;
+  margin-top: -1.3em;
+  max-width: 768px;
+}
+
+.inp {
+  width: 100%;
+  padding: 0 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding: 0.8em 1em;
+  width: 100%;
+  outline: none;
+}
+
+input::placeholder {
+  color: #6b7280;
+}
+
+.fa-magnifying-glass {
+  color: #9da3af;
+  cursor: pointer;
+}
+
+button {
+  color: #374151;
+  background: none;
+  border: 1px solid #d1d5db;
+  padding: 0.8em 1em;
+  width: 30%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.load-msg {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dfdddd;
+  gap: 0.5em;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.3em;
+  width: 100%;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1em;
+  font-size: 0.7rem;
+  flex-grow: 1;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+
+.movie-title p {
+  font-size: 0.8rem;
+}
+
+.movie-desc {
+  color: #6b7280;
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.movie-img img {
+  width: 100px;
+  height: 140px;
+  max-width: 100px;
+}
+
+.fa-star {
+  color: #fdc768;
+}
+
+.fa-plus,
+.fa-minus {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 10px;
+}
+
+.watchlist-btn,
+.watchlist-btn.a {
+  width: fit-content;
+  padding: 0;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#watchList {
+  display: none;
+}
+@media (min-width: 500px) {
+  .movie-content {
+    font-size: 0.9rem;
+  }
+  .movie-desc {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .movie-content {
+    font-size: 0.8rem;
+  }
+
+  header {
+    height: 200px;
+    background-size: contain;
+    background-image: url("./images/oplgbg.jpg");
+  }
+
+  .header-text h1 {
+    font-size: 3rem;
+  }
+
+  .header-text p {
+    font-size: 1.1rem;
+  }
+
+  .header-text {
+    background: rgba(0, 0, 0, 0.8);
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  input,
+  button,
+  .fa-magnifying-glass {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1160px) {
+  main {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .movie-content {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  main {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .movie-content {
+    font-size: 0.9rem;
+  }
+}
